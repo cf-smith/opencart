@@ -325,7 +325,7 @@ class ControllerMarketplaceInstall extends Controller {
 								'version'              => $version,
 								'link'                 => $link,
 								'xml'                  => $xml,
-								'status'               => 1
+								'status'               => 0
 							);
 	
 							$this->model_setting_modification->addModification($modification_data);
